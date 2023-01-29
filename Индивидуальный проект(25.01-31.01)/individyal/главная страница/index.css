@@ -1,0 +1,316 @@
+.prima{
+  position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+.value{
+  display: none;/* ПРОЕКТ БАРБОТКИНА */
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    padding-top: 44px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+        margin: 0;
+        color: #fff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }/* ПРОЕКТ БАРБОТКИНА */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;/* ПРОЕКТ БАРБОТКИНА */
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button:not(.last-child){
+    margin-right: 100px;
+  }
+  .button-primary {
+    background: #1890ff;
+    border: 1px solid #1890ff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  a{
+    text-decoration: none;
+    background: #1890ff;
+    color: #fff;
+    margin-right: 10px;/* ПРОЕКТ БАРБОТКИНА */
+  }
+  .button-icon{
+    height: 27.194705963134766px;
+    width: 31.283737182617188px;
+    margin-right: 10px;
+  }
+  /* projects */
+.projects{
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+.projects-slide{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.project-text{
+  text-align: center;
+}
+.project-title{
+  font-weight: 700;/* ПРОЕКТ БАРБОТКИНА */
+font-size: 24px;
+line-height: 28px;
+margin-bottom: 41px;
+}
+.project-image{
+width: 500px;
+max-height: 315.19px;
+border-radius: 10%;
+}
+.projects-pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+.projects-bullet{
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;/* ПРОЕКТ БАРБОТКИНА */
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.projects-bullet-active{
+  background-color: #FFBB01;    
+}
+.features{
+  background-color: #000000;
+}
+.features-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.features-item{
+  flex-basis: 30%;
+  margin-bottom: 40px;
+}
+.features-title{
+  font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+margin: 0;
+margin-bottom: 16px;
+}
+.features-image{
+  display: block;
+  width: 350px;
+  height: 350px;
+}
+.section{
+  padding-top: 64px;
+}
+.section-title{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 75px;
+  font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+}/* ПРОЕКТ БАРБОТКИНА */
+.features-image{
+  display: block;
+  width: 350px;
+  height: 350px;
+}
+.dov{
+  text-align: center;
+  display: inline-block;
+}
+.dover{
+  border-radius: 20px;
+  width: 1200px;
+}
+.contacts-text{
+  flex-basis: 50%;
+}
+.contacts-data{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+  text-align: center;
+}
+.contacts-phone, .contacts-mail{
+  flex-basis: 50%;
+  margin-bottom: 53px;
+}
+.contacts-link{
+  text-decoration: none;
+  color: inherit;
+  margin-right: 37px;
+}
+.contacts-link:hover{
+  text-decoration: underline;
+}
+.page{
+  padding: 50px;
+    max-width: 1200px;
+    height: 130px;
+    margin: auto;
+    background-color: #595959;
+}
+.but{
+  margin-top: 30px;
+}
+.footer {
+  padding: 60px 0;
+}
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav {
+  margin-left: 35px;
+  margin-right: auto;
+}/* ПРОЕКТ БАРБОТКИНА */
+.footer-link {
+  display: inline-block;
+  color: #595959;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.footer-link:not(:last-child) {
+  margin-right: 15px;
+}
+.social-links {
+  display: flex;
+  align-items: center;
+}
+.social-link:not(:last-child) {
+  margin-right: 21px;
+}
+.sect{
+  background: linear-gradient(360deg, #000000 25%, rgba(0, 0, 0, 0) 50%);
+}
+@media (max-width: 1190px){
+  .cont{
+    max-width: 1050px;
+  }
+  .button:not(.last-child) {
+    margin-right: 50px;
+  }
+  .head{
+  display: block;
+  }
+  .butt{
+    justify-content: center;
+  }
+  .dov{
+    text-align: center;
+    display: inline-block;
+  }
+  .dover{/* ПРОЕКТ БАРБОТКИНА */
+    border-radius: 20px;
+    width: 100%;
+  }
+  .log{
+    position: relative;
+    left: 38.5%;
+  }
+}
+@media (max-width: 768px) {
+.cont{
+  max-width: 750px;
+}
+.button:not(.last-child) {
+  margin-right: 20px;
+}
+.head{
+display: block;
+}
+.button-text{
+  max-width: 245px;
+}
+.conta{
+  max-width: 750px;
+    margin: auto;
+}
+.dov{
+  text-align: center;
+  display: inline-block;
+}
+.dover{
+  border-radius: 20px;
+  width: 100%;
+}
+.features-image{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.page{/* ПРОЕКТ БАРБОТКИНА */
+  height: 100%;
+}
+.prim{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.prima{
+   display: flex;
+    align-items: center;
+  top: 0;
+  left: 0;
+  left: 28%;
+}
+.log{
+  position: relative;
+  left: 38%;
+}
+}
+@media (max-width: 578px){
+.cont{
+  max-width: 500px;
+}
+.prim{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.prima{
+   display: flex;
+    align-items: center;
+  top: 0;
+  left: 0;
+  left: 20%;
+}
+.log{
+  position: relative;
+  left: 30%;
+}
+}/* ПРОЕКТ БАРБОТКИНА */

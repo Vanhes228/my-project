@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bron.css">
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+    rel="stylesheet"
+  />
+    <title>Бронь билета</title>
+</head><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+<body>
+    <div class="field">
+    <form action="../Личный кабинет/profile.html" method="get / post">
+        Оформление билета
+        <p><label for="date">Дата вылета<span>*</span></label>
+			<input type="date" name="date" required="required" placeholder="Выберите дату"> </p>
+
+			<p><label>Время вылета<span>*</span></label>
+                <input type="time" name="time" required="required"></p><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+
+                <p><label>Время прилёта<span>*</span></label>
+                    <input type="time" name="time" required="required"></p>
+
+                    <p><label>Название аэропорта вылета<span>*</span></label>
+                        <input size="28" type="airport" name="airport" required="required" placeholder="Например: Аэропорт Шереметьево"></p>
+
+                        <p><label>Название аэропорта назначения<span>*</span></label>
+                            <input size="28" type="airport" name="airport" required="required" placeholder="Например: Аэропорт Шереметьево"></p>
+		<p align="center"><input type="reset" name="reset"> <input  type="submit" name="reset"></p>
+	</form>
+</div><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+</body>
+</html>

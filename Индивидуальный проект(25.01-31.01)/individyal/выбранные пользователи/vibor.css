@@ -1,0 +1,140 @@
+.prima{
+  position: absolute;
+   top: -9999px;
+   left: -9999px;
+}/* ПРОЕКТ БАРБОТКИНА */
+.value{
+  display: none;
+}
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    padding-top: 44px;
+    display: flex;
+    background: url(../images/phone2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 600%;
+        margin: 0;
+        color: #fff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;/* ПРОЕКТ БАРБОТКИНА */
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .button:not(.last-child){
+    margin-right: 30px;
+  }
+  .button-primary {
+    background: #ff1818;
+    border: 1px solid #ff1818;
+    color: #fff;
+    margin-right: 10px;
+  }/* ПРОЕКТ БАРБОТКИНА */
+  a{
+    text-decoration: none;
+    background: #1890ff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  .button-icon{
+    height: 27.194705963134766px;
+    width: 31.283737182617188px;
+    margin-right: 10px;
+  }
+@media (max-width: 1190px){
+  body{
+    background-size: 100% 170%;
+  }
+  .cont{
+    max-width: 1050px;
+  }
+  .button:not(.last-child) {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+  .head{
+  display: block;
+  }/* ПРОЕКТ БАРБОТКИНА */
+  .butt{
+    justify-content: center;
+  }
+  .buttons {
+    display: block;
+    align-items: center;
+}
+.bit{
+   position: relative;
+   margin-left: 20%;
+}
+}
+@media (max-width: 768px) {
+.cont{
+  max-width: 800px;
+}
+.button:not(.last-child) {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.head{/* ПРОЕКТ БАРБОТКИНА */
+display: block;
+}
+.butt{
+  justify-content: center;
+}
+.buttons {
+  display: block;
+  align-items: center;
+}
+.bit{
+ position: relative;
+ margin-left: 20%;
+}
+}
+@media (max-width: 578px){
+.cont{
+  max-width: 500px;
+}
+.button:not(.last-child) {
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.head{
+display: block;
+}
+.butt{
+  justify-content: center;
+}
+.buttons {
+  display: block;
+  align-items: center;
+}
+.bit{
+ position: relative;
+ margin-left: 20%;
+}/* ПРОЕКТ БАРБОТКИНА */
+}

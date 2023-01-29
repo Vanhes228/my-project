@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../главная страница/normalize.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css">
+    <title>Кабинет админа</title>
+</head>
+<body>
+    <div class="container cont">
+        <header class="header head">
+          <a href="index.html" class="logo">
+            <img src="../images/logo.png" alt="Logo"/ class="log">
+          </a>
+          <div class="buttons butt">
+            <button class="button button-primary">
+              <img src="../images/contact.png" alt="contact" class="button-icon" />
+              <span class="button-text"><a href="#contacts">Контакты</span></a>
+            </button>
+            <button class="button button-primary">
+              <img src="../images/actions.png" alt="actions" class="button-icon" />
+              <span class="button-text"><a href="#actions" >Акции</span></a>
+            </button>
+            <button class="button button-primary prim">
+                <img src="../images/profile.png" alt="Личный кабинет" class="button-icon" />
+                <select id="Личный кабинет" class="button-text" onchange="window.location.href = this.options[this.selectedIndex].value">
+                    <option value="#">Имя: Иван</option>
+                    <option value="#">Фамилия: Барботкин</option>
+                    <option value="../страница регистрации допа/register.html">Добавить пользователя</option>
+                    <option value="../страница регистрации допа/register.html">Редактировать пользователя</option>
+                    <option value="../главная страница/index.html">Удалить пользователя</option><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                    <option value="../выбранные пользователи/vibor.html">Выбрать пользователя</option>
+                    <option value="../главная страница/index.html">Выйти из кабинета</option>
+                </select><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+              </button>
+              
+              <button class="button button-primary prima">
+                <img src="../images/profile.png" alt="Личный кабинет" class="button-icon" />
+                <select id="Личный кабинет" class="button-text" onchange="window.location.href = this.options[this.selectedIndex].value">
+                    <option value="#">Имя: Иван</option>
+                    <option value="#">Фамилия: Барботкин</option>
+                    <option value="../страница регистрации допа/register.html">Добавить пользователя</option>
+                    <option value="../страница регистрации допа/register.html">Редактировать пользователя</option>
+                    <option value="../главная страница/index.html">Удалить пользователя</option>
+                    <option value="../выбранные пользователи/vibor.html">Выбрать пользователя</option><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                    <option value="../главная страница/index.html">Выйти из кабинета</option>
+                </select>
+              </button>
+          </div>
+          <!-- buttons -->
+        </header>
+      </div>
+      <!-- /.container  -->
+      <div class="slogan">
+        <marquee direction="right" scrollamount="45">....................................................................................................................................................................................................................................................................................................................................................................................................................</marquee>
+        <marquee direction="right" scrollamount="18"><img src="../images/sam1.png" /></marquee>
+        <marquee direction="right"scrollamount="27" style="color: #FFF; font-size: 40px; font-weight: bolder; line-height: 150%; text-shadow: #000000 0px 1px 1px;">Мы сближаем города, вы - живете там, где хотите.</marquee>
+        <marquee direction="left" scrollamount="18"><img src="../images/sam2.png" /></marquee>
+        <marquee direction="left" scrollamount="45">....................................................................................................................................................................................................................................................................................................................................................................................................................</marquee>
+      </div>
+      <!-- slogan -->
+
+<!-- Slider main container --><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            Boeing 737 MAX
+          </h2>
+          <img src="../images/samolit1.png" alt="Boeing 737 MAX" class="project-image">
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            Ил-96 
+          </h2>
+          <img src="../images/samolit2.png" alt="Ил-96" class="project-image"><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            Hawker 4000
+          </h2>
+          <img src="../images/samolit3.png" alt="Hawker 4000" class="project-image">
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+              Никита Смоленсккий
+          </h2>
+          <img src="../images/nikita.jpg" alt="Никита Смоленсккий" class="project-image"><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            Никита Доронькин
+          </h2>
+          <img src="../images/nikita2.jpg" alt="Иван Барботкин" class="project-image">
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text"><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+          <h2 class="project-title">
+            Иван Барботкин
+          </h2>
+          <img src="../images/vanya.jpg" alt="Иван Барботкин" class="project-image">
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            салон ATR 42
+          </h2>
+          <img src="../images/pas1.jfif" alt="салон ATR 42" class="project-image">
+        </div>
+        <!-- /.project-text -->
+      </div>
+<!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            салон Airbus A321LR
+          </h2>
+          <img src="../images/pas2.png" alt="салон Airbus A321LR" class="project-image">
+        </div>
+        <!-- /.project-text -->
+      </div>
+
+      <div class="swiper-slide projects-slider">
+        <div class="project-text">
+          <h2 class="project-title">
+            салон  Airbus A321neo
+          </h2>
+          <img src="../images/pas3.jpg" alt="Airbus A321neo" class="project-image">
+        </div><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+        <!-- /.project-text -->
+      </div>
+
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="projects-pagination"></div>
+
+  <main>
+    <section class="features section sect">
+        <div class="container">
+            <h2 class="section-title">
+                <a id="actions"></a>Акции авиакомпании
+            </h2>
+            <div class="features-block">
+              <div class="features-item"><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                  <img src="../images/sale1.jpg" alt="sale1" class="features-image">
+                  </div>
+                  <div class="features-item">
+                    <img src="../images/sale2.webp" alt="sale2" class="features-image">
+                    </div>
+                    <div class="features-item">
+                      <img src="../images/sale3.jpg" alt="sale3" class="features-image">
+                      </div>
+                      <div class="features-item">
+                        <img src="../images/sale4.jpg.~" alt="sale4" class="features-image">
+                        </div>
+                        <div class="features-item">
+                          <img src="../images/sale5.png" alt="sale5" class="features-image">
+                          </div>
+                          <div class="features-item">
+                            <img src="../images/sale6.jpg" alt="sale6" class="features-image">
+                            </div>
+                          </div>
+                          </div>
+                          </section><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                          </main>
+
+                          <footer class="section">
+                            <div class="container">
+                            <h2 class="section-title">
+                                <a id="contacts"></a>Свяжитесь со мной
+                            </h2>
+                            <div class="contacts-text">
+                              <div class="contacts-data">
+                                  <div class="contacts-phone">
+                                      <h4 class="contacts-title">
+                                          Телефон
+                                      </h4>
+                                      <a href="tel: +79066655962" class="contacts-link">+7 906 665-59-62</a>
+                                  </div>
+                                  <!-- /.contacts-phone --><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                                  <div class="contacts-mail">
+                                      <h4 class="contacts-title">
+                                          Почта
+                                      </h4>
+                                      <a href="mail: ivanbarbotkin5@gmail.com" class="contacts-link">ivanbarbotkin5@gmail.com</a>
+                                  </div>
+                                  <!-- /.contacts-mail -->
+                                  </div>
+                                  </div>
+                                  </div>
+                                  </footer>
+                                  
+
+                          <main>
+                            <section class="features section">
+                                <div class="container conta">
+                                   <!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                                  <h2 class="section-title">
+                                    <a id="contact"></a>Доверие компании
+                                </h2>
+
+                                    <div class="features-block dov">
+                                        <div class="features-item">
+                                            <img src="../images/dov1.jpg" alt="Возврат и обмен билетов" class="features-image dover" >
+                                            <h3 class="feature title" >Возврат и обмен билетов</h3>
+                                            <p class="features-text " >Пандемия изменила планы многих путешественников, но мы знаем, что она не будет длиться вечно.
+                                              Как только все это закончится, мы продолжим исследовать этот мир так, как мы привыкли.
+                                              Специальные правила, разработанные для этой сложной ситуации, помогут вам отменить поездку или отложить её на потом.</p>
+                                        </div>
+
+                                        <main>
+                                          <section class="features section">
+                                              <div class="container">
+                                                 
+                                                  <div class="features-block dov">
+                                                      <div class="features-item">
+                                                          <img src="../images/dov2.jpg" alt="Лучшие предложения" class="features-image dover" >
+                                                          <h3 class="features title " >Лучшие предложения</h3>
+                                                          <p class="features-text " >Снова увидеть улицы, которые так много видели. Обнять своих близких и оглянуться назад, чтобы увидеть,
+                                                            через что вам пришлось пройти. И думать о новых мечтах, которые будут такими особенными!</p>
+                                                      </div>
+<!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                                                      <main>
+                                                        <section class="features section">
+                                                            <div class="container">
+                                                              
+                                                                <div class="features-block dov">
+                                                                    <div class="features-item">
+                                                                        <img src="../images/dov3.jpg" alt="Видеться чаще" class="features-image dover" >
+                                                                        <h3 class="features title " >Видеться чаще</h3>
+                                                                        <p class="features-text " >С начала января мы расширяем географию полетов по России, чтобы вы могли
+                                                                          чаще видитесь с близкими. Выбирайте нашу компанию, чтобы лететь туда, где вас всегда ждут.</p>
+                                                                    </div>
+
+                                                                    <main class="hack">
+                                                                      <section class="features section">
+                                                                          <div class="container">
+                                                                              
+                                                                              <div class="features-block dov">
+                                                                                  <div class="features-item">
+                                                                                      <img src="../images/dov4.jpg" alt="Все снова включено" class="features-image dover">
+                                                                                      <h3 class="features title " >Все снова включено</h3>
+                                                                                      <p class="features-text " >С 10 августа возобновим полеты в Турцию. Рейсы из Москвы в Анталию будут выполняться дважды
+                                                                                        в день ежедневно, а рейсы по маршруту Москва-Даламан будут выполняться от трех до семи раз в неделю.</p>
+                                                                                  </div>
+
+                                                                                  <main>
+                                                                                    <section class="features section">
+                                                                                        <div class="container">
+                                                                                            
+                                                                                            <div class="features-block dov">
+                                                                                                <div class="features-item">
+                                                                                                    <img src="../images/dov5.jpg" alt="Защищённый личный кабинет" class="features-image dover" >
+                                                                                                    <h3 class="features title " >Защищённый личный кабинет</h3>
+                                                                                                    <p class="features-text ">Здесь хранятся все ваши покупки. А ещё с его помощью мы отправляем вам уведомления и напоминания. Все личные данные находятся в полной безопасности!</p>
+                                                                                                </div>
+
+                                                                                                <main>
+                                                                                                  <section class="features section"><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+                                                                                                      <div class="container">
+                                                                                                          
+                                                                                                          <div class="features-block dov">
+                                                                                                              <div class="features-item">
+                                                                                                                  <img src="../images/dov6.jpg" alt="У нас нет физического офиса продаж." class="features-image dover"> 
+                                                                                                                  <h3 class="features title " >У нас нет физического офиса продаж. </h3>
+                                                                                                                  <p class="features-text " >Мы работаем напрямую с авиакомпаниями, поэтому у нас есть специальный доступ к закрытым базам авиабилетов, а это всегда дешевле.</p>
+                                                                                                              </div>
+                                                                                                              </div>
+                                                                                                              </div>
+                                                                                                              </section>
+                                                                                                              </main>
+
+                                                                                                              <div class="page">
+                                                                                                                <form  action="#" class="subscription">
+                                                                                                                  <div class="subscription-group">
+                                                                                                                    <span href="#top" class="subscription-text">
+                                                                                                                      Подпишитесь! выгодные предложения, закрытые акции!
+                                                                                                                    </span>
+                                                                                                                    <input type="email" class="field" placeholder="Например, ivanov@ya.ru" required>
+                                                                                                                  </div>
+                                                                                                                  <button class="but">Подписаться</button>
+                                                                                                                </form>
+                                                                                                              </div><!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+
+                                                                                                              <footer class="footer">
+                                                                                                                <div class="container">
+                                                                                                                  <div class="footer-block">
+                                                                                                                    <nav class="footer-nav">
+                                                                                                                      <a href="#" class="footer-link">+7 906 665-59-62</a>
+                                                                                                                      </nav>
+                                                                                                                    <div class="social-links">
+                                                                                                                      <a href="#" class="social-link"><img src="../images/instagram.svg" alt="instagram" /></a>
+                                                                                                                      <a href="#" class="social-link"><img src="../images/fb.svg" alt="facebook" /></a>
+                                                                                                                      <a href="#" class="social-link"><img src="../images/vk.svg" alt="vk" /></a>
+                                                                                                                    </div>
+                                                                                                                    <!-- /.social-links -->
+                                                                                                                    </div>
+                                                                                                                    </div>
+                                                                                                                    </footer>
+<!-- ПРОЕКТ БАРБОТКИНА!!!!!!!!!! -->
+
+
+      <script src="../js/swiper-bundle.min.js"></script>
+
+      <script>
+        var mySwiper = new Swiper ('.swiper', {
+            pagination: {
+        el: '.projects-pagination',
+        bulletClass: 'projects-bullet',
+        bulletActiveClass: 'projects-bullet-active',
+        clickable: true
+      },
+        });
+    </script>
+
+</body>
+</html>
+</body>
+</html>

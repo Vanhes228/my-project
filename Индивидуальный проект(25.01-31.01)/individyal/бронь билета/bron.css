@@ -1,0 +1,17 @@
+.field{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background: url(../images/phone.png); 
+    background-repeat: no-repeat;
+    background-position: center; /* ПРОЕКТ БАРБОТКИНА */
+    background-size: 100% 100%;
+}
+body{
+    display: flex;
+    background: url(../images/phone2.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 270%;
+    font-family: "Roboto", sans-serif;
+}
+/* ПРОЕКТ БАРБОТКИНА */
